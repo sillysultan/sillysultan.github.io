@@ -1,249 +1,46 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sultan's home </title>
-</head>
-<body>
-  <img src="images/reihead.png" alt="Rei" width="415" height="100" class="reihead">
-  <div class="main">
-    <img src="images/Rei.png" class="Sultan" alt="Sultan" width="50" height="50">
-    <p class="Main">Sultan<br> Laziest programmer Fr</p>
-    <p class="AnaBizaf">This is me btw</p>
-    <img src="images/happi.png" alt="happi" width="10" height="10" class="happi">
-    <p class="skills">- I program</p>
-    <p class="anime">- Trash anime fan</p>
-    <p class="Games">- Gamer</p>
-    <p class="Traits">- Lazy like frfrfr</p>
-    <img src="images/cry.webp" alt="cry" width="20" height="20" class="cry">
-    <p class="age">- 17 y.o</p>
-  </div>
-  
-  <div class=instagram>
-    <img src="images/Instagram.png" alt="Instagram" width="30" height="30" class=InstImg>
-      <a href="https://www.instagram.com/radicll?igsh=NDl4a3N3ZnZzcDJl" color: white; class="insta">
-    Instagram
-      </a>
-  </div>
-  
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Console -->
+    <input id="console" placeholder="> Enter secret code..." />
+    <img src="images/reihead.png" alt="Rei" width="415" height="100" class="reihead">
+    <div class="main">
+      <img src="images/Rei.png" class="Sultan" alt="Sultan" width="50" height="50">
+      <p class="Main">Sultan<br> Laziest programmer Fr</p>
+      <p class="AnaBizaf">This is me btw</p>
+      <img src="images/happi.png" alt="happi" width="10" height="10" class="happi">
+      <p class="skills">- I program</p>
+      <p class="anime">- Trash anime fan</p>
+      <p class="Games">- Gamer</p>
+      <p class="Traits">- Lazy like frfrfr</p>
+      <img src="images/cry.webp" alt="cry" width="20" height="20" class="cry">
+      <p class="age">- 17 y.o</p>
+    </div>
+    
+    <div class="instagram">
+      <img src="images/Instagram.png" alt="Instagram" width="30" height="30" class="InstImg">
+      <a href="https://www.instagram.com/radicll?igsh=NDl4a3N3ZnZzcDJl" color: white; class="insta">Instagram</a>
+    </div>
+    
     <div class="MAL">
       <img src="images/mal.png" alt="MAL" width="30" height="30" class="MalImg">
-      <a href="https://myanimelist.net/profile/Radicll" class="mal">
-        MyAnimeList
-      </a>
+      <a href="https://myanimelist.net/profile/Radicll" class="mal">MyAnimeList</a>
     </div>
 
     <div class="Discord">
       <img src="images/discord.png" alt="Discord" width="30" height="30" class="DiscordImg">
       <a href="https://discord.gg/VdEsJajHuM" class="DsServer">Discord</a>
-
     </div>
+
     <footer>
       <p class="footer">All rights reserved to Sultan, Sultan, Sultan, Sultan, Sultan, Sultan, Sultan, Sultan... Ok I'll stop.</p>
     </footer>
-      <style>
-        @font-face {
-          font-family: 'fonts/Font.ttf';
-           src: url('fonts/Font.ttf') format('woff2');
-           font-weight: normal;
-           font-style: normal;
-        }
-        div {
-          font-family: 'fonts/Font.ttf', sans-serif;
-          position: relative;
-          color: #ffffff;
-          width: 350px;
-          height: 205px;
-          background-color: #0A0038;
-          border-radius: 10px;
-          position: absolute;
-          top: 40%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          border: 3px solid #000000;
-          
-         .Sultan {
-          border-radius: 75%;
-          object-fit: cover;
-          position: absolute;
-          top: 5px;
-          right: 73%;
-          transform: translateX(-70%);
-         }
-          .AnaBizaf {
-            position: absolute;
-            top: 50px;
-            left: 7px;
-            font-size: 8px;
-          }
-        .happi {
-          position: absolute;
-          top: 56.5px;
-          left: 57px;
-          
-          }
-        }
-         body {
-  background: url('images/background.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-      }
-         reihead {
-        image-position: center;
-        image-edge: 50px;
-        border-radius: 10px;
-         }
-        .Main {
-          position: absolute;
-          top: -7px;
-          left: 50%;
-          transform: translateX(-50%);
-          text-align: center;
-       }
-        .skills {
-          position: absolute;
-          left: 15%;
-          bottom: 40%;
-          transform: translateX(-50%);
-          text-align: left;
-        }
-        .anime {
-          position: absolute;
-          left: 20%;
-          bottom: 30%;
-          transform: translateX(-50%);
-          text-align: left
-        }
-        .Games {
-          position: absolute;
-          left: 11%;
-          bottom: 20%;
-          transform: translateX(-50%);
-          text-align: left
-        }
-        .Traits {
-          position: absolute;
-          left: 18.5%;
-          bottom: 10%;
-          transform: translateX(-50%);
-          text-align: left;
-        }
-        .cry {
-          position: absolute;
-          left: 37.5%;
-          bottom: 17.5%;
-          transform: translateX(-50%);
-          
-        }
-        .age {
-          position: absolute;
-          left: 9.5%;
-          bottom: 0%;
-          transform: translateX(-50%);
-          text-align: left;
-        }
-        .instagram {
-          color: #ffffff;
-          width: 350px;
-          height: 75px;
-          background-color: #0A0038;
-          border-radius: 10px;
-          position: absolute;
-          bottom: 25px;
-          border: 3px solid #000000;
-          margin-top: 165px;
-        }
-        .insta {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-          font-size: 29px;
-          text-decoration: none;
-          color: #ffffff;
-        }
-        .InstImg {
-          position: absolute;
-          top: 15px;
-          left: 40px;
-          bottom: 15px;
-          transform: translateX(-50%);
-          width: 50px;
-          height: 50px;
-        }
-        .MAL {
-          color: #ffffff;
-          width: 350px;
-          height: 75px;
-          background-color: #0A0038;
-          border-radius: 10px;
-          position: absolute;
-          bottom: 0px;
-          border: 3px solid #000000;
-          margin-top: 265px;
-        }
-        .mal {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-          font-size: 29px;
-          text-decoration: none;
-          color: #ffffff;
-        }
-        .MalImg {
-          position: absolute;
-          top: 15px;
-          left: 40px;
-          bottom: 15px;
-          transform: translateX(-50%);
-          width: 50px;
-          height: 50px;
-        }
-        .Discord {
-          color: #ffffff;
-          width: 350px;
-          height: 75px;
-          background-color: #0A0038;
-          border-radius: 10px;
-          position: absolute;
-          bottom: 0px;
-          border: 3px solid #000000;
-          margin-top: 365px;
-        }
-        .DsServer {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: center;
-          font-size: 29px;
-          text-decoration: none;
-          color: #ffffff;
-        }
-        .DiscordImg {
-          position: absolute;
-          top: 15px;
-          left: 40px;
-          bottom: 15px;
-          transform: translateX(-50%);
-          width: 50px;
-          height: 50px;
-        }
-        .footer {
-          position: absolute;
-          bottom: -0;
-          left: 50%;
-          transform: translateX(-50%);
-          text-align: center;
-          font-size: 8px;
-          color: #ffffff;
-          font-family: 'fonts/Font.ttf', sans-serif;
-          opacity: 0.5;
-        }
-      }
-      </style>
+
+    <script src="script.js"></script>
   </body>
 </html>

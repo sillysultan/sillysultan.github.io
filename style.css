@@ -1,0 +1,256 @@
+@font-face {
+  font-family: 'fonts/Font.ttf';
+   src: url('fonts/Font.ttf') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
+div {
+  font-family: 'fonts/Font.ttf', sans-serif;
+  position: relative;
+  color: #ffffff;
+  width: 350px;
+  height: 205px;
+  background-color: #0A0038;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #000000;
+  
+ .Sultan {
+  border-radius: 75%;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  right: 73%;
+  transform: translateX(-70%);
+ }
+  .AnaBizaf {
+    position: absolute;
+    top: 50px;
+    left: 7px;
+    font-size: 8px;
+  }
+.happi {
+  position: absolute;
+  top: 56.5px;
+  left: 57px;
+  
+  }
+}
+ body {
+background: url('images/background.png');
+background-size: cover;
+background-repeat: no-repeat;
+  }
+ reihead {
+transform: translate(-50%, -50%);
+image-position: center;
+image-edge: 50px;
+border-radius: 10px;
+ }
+.Main {
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.skills {
+  position: absolute;
+  left: 15%;
+  bottom: 40%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+.anime {
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+  transform: translateX(-50%);
+  text-align: left
+}
+.Games {
+  position: absolute;
+  left: 11%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  text-align: left
+}
+.Traits {
+  position: absolute;
+  left: 18.5%;
+  bottom: 10%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+.cry {
+  position: absolute;
+  left: 37.5%;
+  bottom: 17.5%;
+  transform: translateX(-50%);
+  
+}
+.age {
+  position: absolute;
+  left: 9.5%;
+  bottom: 0%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+.instagram {
+  color: #ffffff;
+  width: 350px;
+  height: 75px;
+  background-color: #0A0038;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 25px;
+  border: 3px solid #000000;
+  margin-top: 165px;
+}
+.insta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 29px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.InstImg {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  bottom: 15px;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+}
+.MAL {
+  color: #ffffff;
+  width: 350px;
+  height: 75px;
+  background-color: #0A0038;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+  border: 3px solid #000000;
+  margin-top: 265px;
+}
+.mal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 29px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.MalImg {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  bottom: 15px;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+}
+.Discord {
+  color: #ffffff;
+  width: 350px;
+  height: 75px;
+  background-color: #0A0038;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+  border: 3px solid #000000;
+  margin-top: 365px;
+}
+.DsServer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 29px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.DiscordImg {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  bottom: 15px;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+}
+.footer {
+  position: absolute;
+  bottom: -0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 8px;
+  color: #ffffff;
+  font-family: 'fonts/Font.ttf', sans-serif;
+  opacity: 0.5;
+}
+}
+body {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+transition: all 0.3s ease;
+}
+
+#main-image {
+width: 100%;
+max-height: 300px;
+object-fit: cover;
+transition: all 0.3s ease;
+}
+
+.card {
+background-color: #0c0d3f;
+color: white;
+padding: 20px;
+margin: 10px;
+border-radius: 12px;
+transition: all 0.3s ease;
+}
+
+
+#console {
+position: fixed;
+bottom: 10px;
+right: 10px;
+width: 125px;
+padding: 10px;
+background-color: #111;
+color: #ffffff;
+font-family: monospace;
+font-size: 7px;
+border: none;
+outline: none;
+border-radius: 8px;
+z-index: 999;
+box-shadow: 0 0 10px #0000;
+}
+
+.saber-theme {
+background-image: url("background_2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: #222;
+}
+
+.saber-theme .card {
+background-color: #bfae30; 
+color: black;
+}
