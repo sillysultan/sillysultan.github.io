@@ -223,34 +223,3 @@ margin: 10px;
 border-radius: 12px;
 transition: all 0.3s ease;
 }
-
-
-#console {
-position: fixed;
-bottom: 10px;
-right: 10px;
-width: 125px;
-padding: 10px;
-background-color: #111;
-color: #ffffff;
-font-family: monospace;
-font-size: 7px;
-border: none;
-outline: none;
-border-radius: 8px;
-z-index: 999;
-box-shadow: 0 0 10px #0000;
-}
-
-.saber-theme {
-background-image: url("background_2.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-color: #222;
-}
-
-.saber-theme .card {
-background-color: #bfae30; 
-color: black;
-}
